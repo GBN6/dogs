@@ -1,0 +1,52 @@
+::ng-deep :root {
+    --color-dark: #212121;
+    --color-grey: #323232;
+    --color-cyan: #14FFEC;
+    --color-cyan-darker: #0D7377;
+    --color-light: #EEEEEE;
+}
+
+.about {
+    margin: auto auto;
+    max-width: 80rem;
+    padding: 4rem;
+    font-size: 4rem;
+    min-height: 80vh;
+    display: flex; 
+    align-items: center;
+    color: var(--color-light);
+}
+
+.title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+h3 {
+    color: var(--color-cyan);
+}
+
+.about-container {
+    background-color: #323232;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 6rem;
+    border: 2px solid var(--color-dark);
+    box-shadow: 5px 6px 5px var(--color-dark);
+}
+
+.about-card { 
+    text-align: center;
+}
+
+.card-desc {
+    margin-bottom: 2rem;
+}
+
+.card-at a {
+    color: var(--color-cyan-darker);
+    text-decoration: underline;
+}
