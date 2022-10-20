@@ -1,27 +1,25 @@
 # Dogs
+Prosta aplikacja stworzona w Angular na potrzeby zadania rekrutacyjnego.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+# Podglad
+https://gbn6.github.io/dogs/dogs
 
-## Development server
+## Cechy aplikacji
+* Pobiera dane z api
+* Wyswietla odpowiednie zdjecie wybranej rasy
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Screen
+![image](https://user-images.githubusercontent.com/101929151/196995792-c7505e80-e663-4542-96f9-33572a13552e.png)
 
-## Code scaffolding
+#### Zbudowana za pomoca
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Angular](https://angular.io/)
 
-## Build
+#### Narzedzia
+* Visual Studio Code
+* Linux terminal
+* Git and GitHub
+* Angular
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#### Rezultat
+Byla to moja pierwsza stycznosc z Angularem, wiec pewnie sporo rzeczy jest do poprawy. Do zbudowania poslugiwalem sie dokumentacja Angulara, Google, Stackoverflow. Aplikacja jest prosta i wykonuje czynnosci opisane w zadaniu
