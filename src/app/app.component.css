@@ -1,0 +1,39 @@
+::ng-deep :root {
+    --color-dark: #212121;
+    --color-grey: #323232;
+    --color-cyan: #14FFEC;
+    --color-cyan-darker: #0D7377;
+    --color-light: #EEEEEE;
+}
+
+header {
+    background-color: var(--color-dark);
+}
+
+.header-title {
+    color: var(--color-cyan);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    -webkit-box-pack: justify;
+    font-size: 3rem;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 140rem;
+    padding: 3rem;
+}
+
+.link-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.list-link {
+    color: white;
+    text-decoration: none;
+}
+
