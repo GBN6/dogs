@@ -1,1 +1,27 @@
-<p>dogs works!</p>
+<div class="dogs">
+    <div class="dogs-container">
+        <div class="dog-select">
+            <h2>Wybierz rasę</h2>
+            <select class="list-group" #mySelect (change)="handleChange(mySelect.value)" >
+              <option value="0" selected="selected">
+                -- RASY--
+              </option>
+              <option *ngFor="let breed of list" class="list-group-item" [value]='breed'>
+                {{breed}}
+              </option>
+            </select>
+        </div>
+        <div class="dog-details">
+            <h2>Szczegóły</h2>
+            <div *ngIf="picLoaded; else elseBlock" class="breed-detail">
+                <div class="breed-name">{{breedName}}</div>
+                <div class="img-container"><img class="breed-img" src={{link}} alt={{breedName}}></div>
+                <div class="breed-link">
+                    Dowiedz się więcej o tej rasie: 
+                    <a href="https://en.wikipedia.org/wiki/{{breedName}}">{{breedName}}</a>
+                </div>
+            </div>
+            <ng-template #elseBlock><div></div></ng-template>
+        </div>
+    </div>
+</div>
